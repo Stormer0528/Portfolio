@@ -1,3 +1,4 @@
+/* eslint-disable react-memo/require-usememo */
 import {ArrowTopRightOnSquareIcon} from '@heroicons/react/24/outline';
 import classNames from 'classnames';
 import Image from 'next/image';
