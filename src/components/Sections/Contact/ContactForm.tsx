@@ -49,7 +49,7 @@ const ContactForm: FC = memo(() => {
         mailstr = '?' + mailstr;
       }
 
-      window.open('mailto:omnideveloper.soft@gmail.com' + mailstr);
+      window.open('mailto:jordanskinner072@gmail.com' + mailstr);
     },
     [data],
   );
