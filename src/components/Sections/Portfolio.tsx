@@ -68,6 +68,7 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, work, skills, 
 
   const openUrl = useCallback(
     (event: MouseEvent<HTMLElement>) => {
+      event.preventDefault();
       url && window.open(url);
     },
     [url],
