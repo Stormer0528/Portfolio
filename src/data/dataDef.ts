@@ -81,6 +81,8 @@ export interface PortfolioItem {
   description: string;
   url: string;
   image: string | StaticImageData;
+  work: string;
+  skills: string;
 }
 
 /**

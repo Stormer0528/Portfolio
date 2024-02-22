@@ -185,22 +185,28 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Real-Time Call Management and Reporting',
-    description: 'Call tracking, attribution, reporting and analytics for markets, digital agencies, call centers, pay per call, and performance networks.',
-    url: 'https://www.ringba.com/',
-    image: porfolioImage1,
-  },
-  {
     title: 'Chicken Coops',
-    description: 'UK’s leading manufacturer of sustainable, maintenance-free chicken coops with an industry-beating 25-year warranty. In 2020, Green Frog Designs and Gardenature merged for Nestra.',
+    description: 'UK’s leading manufacturer of sustainable, maintenance-free chicken coops with an industry-beating 25-year warranty. In 2020, Green Frog Designs and Gardenature merged for Nestra',
     url: 'https://nestera.co.uk/',
     image: porfolioImage2,
+    skills: 'Angular, TypeScript, JavaScript, Node.js, Express.js, T-SQL, .Net, Git',
+    work: 'Developed a self-guided wizard for creating a dashboard. The front end was done using Angular, and the back end using .Net Core. The database was a SQL server, and T-SQL was used for developing stored procedures.'
   },
   {
     title: 'DriveFlux',
     description: 'Car & Motocycle Lending Service',
     url: 'https://driveflux.com/',
     image: porfolioImage3,
+    skills: 'React, TypeScript, JavaScript, Node.js, Express.js,  MySQL, MongoDB',
+    work: 'Specialized in large complex data migration and mining projects, refactoring code for improved performance, and debugging complex internal and external API integrations.'
+  },
+  {
+    title: 'Real-Time Call Management and Reporting',
+    description: 'Call tracking, attribution, reporting and analytics for markets, digital agencies, call centers, pay per call, and performance networks',
+    url: 'https://www.ringba.com/',
+    image: porfolioImage1,
+    skills: 'React, JavaScript, Python, Django, Lambda, MySQL, Elasticsearch',
+    work: 'Developed a project for this company. This included Python web development with Django, API development with API Gateway, as well as working with Lambda, Python, and the Serverless Framework/SAM.'
   },
   {
     title: 'Hotel Management System',
@@ -208,18 +214,24 @@ export const portfolioItems: PortfolioItem[] = [
       'This hotel management project supports essential features such as Guest profiles, Email automation, Housekeeping management, Reservation management, Room management, Group bookings & reservations, Invoicing, Payment processing, and so on.',
     url: 'https://www.stayntouch.com/',
     image: porfolioImage4,
+    skills: 'React, TypeScript, Canvas, Node.js, Express.js, PostgreSQL',
+    work: 'Refactored the existing code to improve the performance of a heavy React front-end by talking to Node.js and Express.js via REST API. Applied Scrum techniques to the development process.'
   },
   {
     title: 'Ecosystem',
     description: 'Provide an ecosystem of compatible developer control suites, embeddable BI platforms, and business software.',
-    url: 'https://nestera.co.uk/',
+    url: 'https://www.syncfusion.com/',
     image: porfolioImage5,
+    skills: 'React, TypeScript, Material UI, Redux, Node.js, Express.js, MySQL, MongoDB, Elasticsearch',
+    work: 'Contributed to the material design UI and developed custom components. Added tests. Used TypeScript, React, and Material UI.'
   },
   {
     title: 'CompareandChoose',
     description: 'CompareandChoose provide partnered with some fantastic suppliers and global brands enabling us to compare many products all around to globe from Australia Campervan Rental to motorhomes in America we have you covered.',
     url: 'https://www.compareandchoose.com/',
     image: porfolioImage6,
+    skills: 'Angular, TypeScript, Python, Django, MySQL, Git',
+    work: 'Developed messaging features for a cross-platform application with AngularJS and Ionic framework. Created a deployment process with Chef to the Linode VPS instance with Git hooks for deployment.'
   },
   {
     title: 'Hybrid Biker',
@@ -227,6 +239,8 @@ export const portfolioItems: PortfolioItem[] = [
       'Hybrid bikes on the other hand offer the best of all worlds as they take the best features of each type and combine them into one cycle to offer a great balance.',
     url: 'https://hybridbikereview.com/',
     image: porfolioImage7,
+    skills: 'Vue.js, TypeScript, Python, Responsive Design, MongoDB, PostgreSQL',
+    work: 'The client had an existing store which we then fully re-built, optimized on a new theme with new apps and an enhanced interface with additional features. The client was facing a lot of back-end issues with his site throwing Critical errors every time an update was made. The code was optimized and made compatibile with all future updates. Created multiple pages and sections from scratch. Added new functionalities including Funding pages and Accessing the Database pages. Moroever, used React.js to create front end elements based on the Figma design.'
   },
   {
     title: 'Bookmark',
@@ -234,6 +248,8 @@ export const portfolioItems: PortfolioItem[] = [
       'CityCity provides self-booking platforms for Business and Leisure Travel Agencies.',
     url: 'https://www.citycity.se/',
     image: porfolioImage8,
+    skills: 'Vue.js, TypeScript, Laravel, PHP, Python, MySQL, Git',
+    work: 'Worked as a backend developer in there since when they build the site. Collaborated with 5 team members to structure database and project using laravel and Python. Used MySQL as a database and built an optimized and flexibility project.'
   },
   {
     title: 'Clerked App',
@@ -241,6 +257,8 @@ export const portfolioItems: PortfolioItem[] = [
       'This app is a healthcare app that lets doctors and patients can schedule the meeting, as well as doctors can take care of the patients with detailed information such as temperature, heart rate, etc.',
     url: 'https://clerked.com/',
     image: porfolioImage9,
+    skills: 'React, TypeScript, JavaScript, Node.js, Express.js, Docker, Python, Django',
+    work: 'Supported and migrated a global suite of tools for tracking panelist data aggregation from legacy infrastructure to AWS. Created the front end of an invoice management app written in React. It was fully responsive and had a lot of custom inputs and dynamically generated pages.'
   },
 ];
 
