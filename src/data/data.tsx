@@ -403,7 +403,7 @@ export const contact: ContactSection = {
     {
       type: ContactType.Location,
       text: 'Troy, Michigan',
-      href: 'https://maps.google.com/maps/ms?ie=UTF8&hl=en&t=h&msa=0&msid=104752267739743366167.0004738f700d65c870a4d&ll=47.650588,-122.354736&spn=1.480197,2.197266&z=7&source=embed',
+      href: 'https://www.google.com/maps/place/Livernois+Rd,+Michigan/@42.5777829,-83.150939,17z/data=!3m1!4b1!4m6!3m5!1s0x8824c3f6af87ae05:0xe1a86798ca2ef2d0!8m2!3d42.577779!4d-83.1483641!16s%2Fg%2F1thlnpyr?entry=ttu',
     },
     {
       type: ContactType.LinkedIn,
