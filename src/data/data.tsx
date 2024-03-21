@@ -288,25 +288,25 @@ export const experience: TimelineItem[] = [
     content: (
       <ul className="ml-4" style={{listStyleType: 'disc'}}>
         <li>
-          Worked on the admin and customer portals and rewrote them from Vue 2 to React/TypeScript. Introduced CI/CD for the front end via GitHub Actions.
+          Worked on the admin and customer portals and rewrote them from Vue 2 to React/TypeScript.
         </li>
         <li>
-          Developed a self-guided wizard for creating a dashboard. The front end was done using Angular, and the back end using .Net Core. The database was a SQL server, and T-SQL was used for developing stored procedures.
-        </li>
-        <li>
-          Contributed to the material design UI and developed custom components. Added tests. Used TypeScript, React, and Material UI.
-        </li>
-        <li>
-          Researched and analyzed 30+ program and system's problems and developed a new program documentation to fix them.
+          Developed a self-guided wizard for creating a dashboard. The front end was done using Angular and the back end using .Net Core. The database was a SQL server, and T-SQL was used for developing stored procedures.
         </li>
         <li>
           Refactored the existing code to improve the performance of a heavy React front-end by talking to Node.js and Express.js via REST API.
         </li>
         <li>
-          Worked as a back-end developer with MySQL, MongoDB, Python and Elastic-Search.
+          Designed and developed 10+ RESTful APIs using Node.JS, Nest, PHP, Laravel, Python, MongoDB, PostgreSQL, MySQL, Redis, AWS, Microsoft Azure and Google Cloud Platform.
         </li>
         <li>
-          Developed a project for this company. This included Python web development with Django, API development with API Gateway, as well as working with Lambda, Python, and the Serverless Framework/SAM.
+          Delivered a full-stack web application using Django, MySQL, Bootstrap, and jQuery contained a repository of thousands of documents about financial datasets. It integrated with Jira for tracking alerts relating to data ingestion delays.
+        </li>
+        <li>
+          Collaborated with the backend team to design, define, and implement GraphQL types and resolvers to provide the necessary data for frontend development while maintaining minimal calls to the database.
+        </li>
+        <li>
+          Re-implemented crucial components of a monolithic video player back-end application in a new REST microservice architecture from the very beginning of the project to production release and later support.
         </li>
         <li>
           Supported and migrated a global suite of tools for tracking panelist data aggregation from legacy infrastructure to AWS.
@@ -321,21 +321,29 @@ export const experience: TimelineItem[] = [
     content: (
       <ul className="ml-4" style={{listStyleType: 'disc'}}>
         <li>
-          Designed, coded and modified 20+ enterprise web applications from layout to function, according to the client's specifications using React.
+          Led a team of 8 developers in the development of an enterprise platform using React.
         </li>
         <li>
-          Worked in DevOps with AWS(Amazon Web Services), Docker, Node, and Python development environments and specialized in Jira.
+          Transitioned a large monolithic application into a microservice architecture.
         </li>
         <li>
-          Specialized in large complex data migration and mining projects, refactoring code for improved performance, and debugging complex internal and external API integrations.
+          Worked in DevOps with AWS (Amazon Web Services), Docker, Node, and Python development environments and specialized in Jira.
         </li>
         <li>
-          Built a Node.js-based library, which acted as middleware for Express.js and Koa, that automatically captured user errors and sent them to a platform that aggregated and visualized them.
+          Co-led the development of PRNCPL, a single-page application focused on managing data and customers tailored for art shows using Vue and Vuex.
+        </li>
+        <li>
+          Worked as a developer in the team for designing and developing the application using Microsoft advanced technologies .Net, C#, ASP.NET3.0, SQL Server and Microsoft Visual SourceSafe.
+        </li>
+        <li>
+          Engaged initially as a contractor to upgrade the front end of KeyBank's corporate banking portal, KeyNavigator, from the AngularJS-based Backbase LaunchPad widget architecture to the Angular 8-based Backbase Widget Architecture 3.
+        </li>
+        <li>
+          Built a Node.js-based library, which acted as middleware for Express.js and Koa, that automatically captured user errors and sent them to a platform that aggregated and visualized them
         </li>
         <li>
           Used various technologies, including cloud providers such as AWS, GCP, Azure, GitHub actions, Jira, Grafana, Prometheus, and alert manager.
         </li>
-        <li>Lead a team of 8 developers in the development of an enterprise platform using React.</li>
       </ul>
     ),
   },
@@ -346,7 +354,10 @@ export const experience: TimelineItem[] = [
     content: (
       <ul className="ml-4" style={{listStyleType: 'disc'}}>
         <li>
-          Fixed bugs, designed websites as a junior web developer. And then designed a project and database, reviewed other team member's code as a lead developer.
+          Fixed bugs, designed websites as a junior web developer.
+        </li>
+        <li>
+          And then designed a project and database, reviewed other team member's code as a lead developer.
         </li>
         <li>
           Collaborated with 5 team members to develop, maintain and improve 10+ web-based applications
